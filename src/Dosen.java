@@ -3,6 +3,7 @@ import java.util.List;
 abstract public class Dosen extends Staff {
     private String departemen;
     private List<String> matkulDiajar;
+
     private List<String> presensi; // Menyimpan tanggal presensi dosen dalam format String
 
     public Dosen(String nama, String alamat, String ttl, String telepon, String nik, double gaji, String departemen, List<String> matkulDiajar, List<String> presensi) {

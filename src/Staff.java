@@ -7,7 +7,7 @@ abstract public class Staff extends User {
         this.nik = nik;
         this.gaji = gaji;
     }
-    
+
     public String getNIK() {
         return nik;
     }
@@ -20,7 +20,7 @@ abstract public class Staff extends User {
         return gaji;
     }
 
-    public void setGaji(double gaji) { 
+    public void setGaji(double gaji) {
         this.gaji = gaji;
     }
 
@@ -28,4 +28,5 @@ abstract public class Staff extends User {
     public String toString() {
         return super.toString() + "| nik: " + nik + "| gaji: " + gaji;
     }
+
 }

@@ -4,29 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Dosen dosen1 = new DosenTetap(
-        "Setiawan", 
-        "Jl. Keramaian No. 10", 
-        "Bandung, 1 Desember 1980", 
-        "081734221237", 
-        "001", 
-        "Informatika", 
-        Arrays.asList("Matematika Informatika"), 
-        Arrays.asList("2024-10-10", "2024-10-11", "2024-10-12"), // Presensi
-        5000000
-    );
-
-        Dosen dosen2 = new DosenTetap(
-        "Ria", 
-        "Jl. Utama No. 11", 
-        "Bandung, 6 September 1985", 
-        "081738764237", 
-        "002", 
-        "Informatika", 
-        Arrays.asList("Bahasa Indonesia", "Web Design"), 
-        Arrays.asList("2024-10-10", "2024-10-13", "2024-10-15"), // Presensi
-        5000000
-    );
+        Dosen dosen1 = new DosenTetap("Setiawan", "Jl. Keramaian No. 10", "Bandung, 1 Desember 1980", "081734221237", "001", "Informatika", Arrays.asList("Matematika Informatika"), Arrays.asList("2024-10-10", "2024-10-11", "2024-10-12"),5000000);
+        Dosen dosen2 = new DosenTetap("Ria", "Jl. Utama No. 11", "Bandung, 6 September 1985", "081738764237", "002", "Informatika", Arrays.asList("Bahasa Indonesia", "Web Design"), Arrays.asList("2024-10-10", "2024-10-13", "2024-10-15"), 5000000);
 
         System.out.println(dosen1.toString());
         System.out.println(dosen2.toString());
